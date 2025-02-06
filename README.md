@@ -4,13 +4,13 @@ Owner: Adit Mugdha Das
 
 A digital clock implemented in Logisim, capable of displaying time in a digital HH:MM format using seven-segment displays. This project demonstrates the use of counters, decoders, logic gates, and a clock generator to simulate a real-time clock.
 
-✨ Features
+# ✨ Features
 
 🕒 Four-Digit Display: Displays time in HH:MM format.
 
 ⏰ Clock Signal: Provides a stable timing source for the circuit.
 
-🔢 Counters:
+# 🔢 Counters:
 
 🕑 Minutes Counter: Counts up to 59 minutes before resetting.
 
@@ -20,7 +20,7 @@ A digital clock implemented in Logisim, capable of displaying time in a digital 
 
 🔁 Reset Functionality: Ensures the clock can be reset to its initial state.
 
-🛠️ Components Used
+# 🛠️ Components Used
 
 ⏳ Clock Generator
 
@@ -48,7 +48,7 @@ Handle carry-over, resets, and control logic.
 
 Provide synchronization and state management for the clock.
 
-🧭 How It Works
+# 🧭 How It Works
 
 ⏳ Clock Signal:
 
@@ -66,17 +66,8 @@ Operates in either a 12-hour or 24-hour mode, resetting at the appropriate value
 
 The binary outputs of the counters are decoded and displayed on the seven-segment displays in a HH:MM format.
 
-🌟 Possible Enhancements
 
-🕰️ AM/PM Indicator: Add a toggle for distinguishing between morning and evening in 12-hour format.
-
-⏲️ Alarm Functionality: Enable alarm settings with additional logic.
-
-🎛️ User Input: Add buttons to adjust hours and minutes manually.
-
-📟 LCD Integration: Replace seven-segment displays with a modern LCD display for enhanced aesthetics.
-
-🚀 Usage
+# 🚀 Usage
 
 Open the .circ file in Logisim.
 
